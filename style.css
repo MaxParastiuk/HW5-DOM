@@ -1,0 +1,66 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    text-align:center;
+    min-height: 100%;
+    background-color: #4cb34c;
+}
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+form {
+    display: inline-block;
+    background-color: #fff;
+}
+
+ul {
+    padding: 15px;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.input-name {
+    border:none;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.input-password {
+    border:none;
+    height: 30px;
+    background-color:#f1f1f1;
+}
+
+.button-log {
+    width: 80%;
+    background-color: green;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.text-under {
+    color: #b0b0b0;
+}
+
+.link-create {
+    color: #6ec06e;
+}
+
+.user-info {
+    display: block;
+    color: #792222;
+}
